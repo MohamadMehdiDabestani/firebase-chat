@@ -1,0 +1,9 @@
+export const HANDLE_SIDEBAR = "HANDLE_SIDEBAR";
+export const WITHOUT_LAYOUT = "WITHOUT_LAYOUT";
+export const SET_USER = "SET_USER";
+export const CLEAN_USER = "CLEAN_USER";
+export const TOGGLE_DIALOG = "TOGGLE_DIALOG";
+export const TOGGLE_LOADING = "TOGGLE_LOADING";
+export const SET_LIST_GROUP = "SET_LIST_GROUP";
+export const SET_CURRENT_GROUP = "SET_CURRENT_GROUP";
+export const TOGGLE_SNACKBAR = "TOGGLE_SNACKBAR";

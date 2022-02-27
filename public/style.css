@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "vazir";
+  src: url("./font/Vazir-Medium.eot") format("eot"),
+    url("./font/Vazir-Medium.ttf") format("ttf"),
+    url("./font/Vazir-Medium.woff") format("woff"),
+    url("./font/Vazir-Medium.woff2") format("woff2");
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #e6e8e6;
+  width: 100%;
+  height: 100%;
+  font-family: "vazir";
+}
+:root {
+  --flickr-pink: #f72585ff;
+  --byzantine: #b5179eff;
+  --purple: #7209b7ff;
+  --purple-2: #560badff;
+  --trypan-blue: #480ca8ff;
+  --trypan-blue-2: #3a0ca3ff;
+  --persian-blue: #3f37c9ff;
+  --ultramarine-blue: #4361eeff;
+  --dodger-blue: #4895efff;
+  --vivid-sky-blue: #4cc9f0ff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "vazir" !important;
+  box-sizing: border-box;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
