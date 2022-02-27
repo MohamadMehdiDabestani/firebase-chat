@@ -105,29 +105,7 @@ export const Login = () => {
           <Button variant="contained" sx={{ width: "70%" }} type="submit">
             ورود
           </Button>
-          <Button
-            color="secondary"
-            variant="contained"
-            sx={{
-              width: "70%",
-              marginTop: "20px",
-              backgroundColor: "var(--flickr-pink)",
-              "&:hover": {
-                backgroundColor: "#cb1f6d",
-              },
-            }}
-            endIcon={<GoogleIcon />}
-          >
-            ورود با Google
-          </Button>
-          <Button
-            variant="contained"
-            color="inherit"
-            sx={{ width: "70%", marginTop: "20px" }}
-            endIcon={<GitHubIcon />}
-          >
-            ورود با Github
-          </Button>
+
           <Box marginTop="20px">
             <Typography variant="subtitle2" component="p" display="inline">
               حسابی ندارید ؟
